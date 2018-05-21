@@ -1,6 +1,10 @@
+$icon-Size:100px;
+$dark-overlay:rgba(0, 0, 0, 0.7);
 .navbar {
     .nav-link {
-        font-size: 14px;
+        font-size: 16px;
+        font-style: italic;
+        color: black;
         text-transform: uppercase;
         padding-left: 1em !important;
         padding-right: 1em !important;
@@ -8,6 +12,10 @@
     .nav-item.active {
         border-left: rgb(212, 76, 76) 3px solid;
     }
+}
+
+body {
+    overflow-x: hidden;
 }
 
 .carousel-item {
@@ -27,4 +35,8 @@
 .carousel-image-3 {
     background: url('../img/img3.jpg');
     background-size: cover;
+}
+
+.fa {
+    font-size: $icon-Size;
 }
