@@ -7,24 +7,29 @@
     padding-left: 1em !important;
     padding-right: 1em !important;
 }
+body {
+    overflow-x: hidden;
+}
 header {
     background: url("../img/tor.jpg");
     background-position: 78% 49.3%;
     background-repeat: repeat-y;
     position: fixed;
     width: 100%;
+    height:100px;
     z-index: 2;
 }
 .navbar {
     background: url("../img/tor.jpg");
-    background-position: 78% 50%;
+    background-position: 58% 50%;
     background-repeat: repeat-y;
-    background-blend-mode: color-burn;
+    background-blend-mode: color-dodge;
     position: fixed;
-    heght:100px;
+    height: 60px;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
 }
+
 
 .navbar .nav-item.active {
     border-left: rgb(88, 37, 37) 3px solid;
