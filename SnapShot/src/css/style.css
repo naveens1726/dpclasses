@@ -7,13 +7,21 @@
     padding-left: 1em !important;
     padding-right: 1em !important;
 }
-
+header {
+    background: url("../img/tor.jpg");
+    background-position: 78% 49.3%;
+    background-repeat: repeat-y;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
 .navbar {
     background: url("../img/tor.jpg");
     background-position: 78% 50%;
     background-repeat: repeat-y;
     background-blend-mode: color-burn;
     position: fixed;
+    heght:100px;
     width: 100%;
     z-index: 1;
 }
