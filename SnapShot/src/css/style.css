@@ -3,27 +3,19 @@
     color: whitesmoke;
     font-weight: bolder;
     text-transform: uppercase;
-    padding-bottom: 6px;
     padding-left: 1em !important;
     padding-right: 1em !important;
 }
 body {
     overflow-x: hidden;
-}
-header {
-    background: url("../img/tor.jpg");
-    background-position: 78% 49.3%;
-    background-repeat: repeat-y;
-    position: fixed;
-    width: 100%;
-    height:100px;
-    z-index: 2;
-}
+}/*  */
+
 .navbar {
     background: url("../img/tor.jpg");
     background-position: 58% 50%;
     background-repeat: repeat-y;
     background-blend-mode: color-dodge;
+    top: 0;
     position: fixed;
     height: 60px;
     width: 100%;
@@ -32,7 +24,7 @@ header {
 
 
 .navbar .nav-item.active {
-    border-left: rgb(88, 37, 37) 3px solid;
+    border-left: rgb(217, 37, 37) 3px solid;
 }
 
 .carousel-item {
@@ -74,8 +66,27 @@ header {
 .dark-overlay {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.7);
-    top: 0;
+    top:0;
     left: 0;
     width: 100%;
     height: 100%;
+    padding-top: 50px;
+}
+
+#page-header{
+  margin-top: 60px;
+  min-height:200px;
+  position: relative;
+  background: url("../img/img1.jpeg");
+  border-top: rgb(207, 48, 48) 6px solid;
+  background-position:center 1;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+  z-index: 1;
+
+}
+.new{
+  margin-top: 33px;
 }
