@@ -1,5 +1,5 @@
 .navbar .nav-link {
-    font-size: 16px;
+    font-size: 14px;
     color: whitesmoke;
     font-weight: bolder;
     text-transform: uppercase;
@@ -17,7 +17,7 @@ body {
     background-blend-mode: color-dodge;
     top: 0;
     position: fixed;
-    height: 60px;
+    height: 70px;
     width: 100%;
     z-index: 2;
 }
@@ -65,7 +65,7 @@ body {
 
 .dark-overlay {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.59);
     top:0;
     left: 0;
     width: 100%;
